@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>DICOM AI Viewer</title>
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <h1>Hello Franz 👋</h1>
-    <p>This is your working FastAPI HTML frontend.</p>
+    <nav class="navbar">
+        <div class="nav-left">
+            <h1>DICOM Viewer</h1>
+        </div>
+        <div class="nav-right">
+            <a href="/">Home</a>
+            <a href="/upload">Upload</a>
+            <a href="/scans">Scans</a>
+            <a href="/profile">Profile</a>
+        </div>
+    </nav>
+
+    <main class="content">
+        <h2>Welcome, Franz!</h2>
+        <p>This is your AI-powered DICOM dashboard.</p>
+        <p>Choose an option from the navigation bar to get started.</p>
+    </main>
 </body>
 </html>
